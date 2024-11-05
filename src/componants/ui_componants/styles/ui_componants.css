@@ -1,0 +1,17 @@
+/* * {
+     cursor: none; 
+   } 
+   */
+   
+   .custom-cursor {
+     position: fixed;
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     background-color: black; /* Cursor color */
+     pointer-events: none; /* Ensure the cursor doesn't interfere with other elements */
+     z-index: 1000;
+     box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.5); /* White shadow */
+     transform: translate(-50%, -50%);
+     transition: transform 0.1s ease;
+   }
